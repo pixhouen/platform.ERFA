@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <h1>ERFA Game</h1>
+  <p class="lead">
+    Compete in teams. Automatically updates score
+  </p>
+</div>
+<div class="container">
+ <team-score id="a-team-view" name="{{team.name}}" results-count={{team.results_count}} average-score={{team.average_score}} finished-members={{team.finished_members}} ng-repeat="team in teams"></team-score>
+</div>
